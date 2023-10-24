@@ -1,9 +1,8 @@
-currentYear = 2023;
 
-InYear = 365;
+name = input("Ozodbek: ")
 
-inDay = 24;
 
-age = int(input('Сколько вам лет вообще то пацухи? :'));
+name = name.upper()
 
-print('ты прожил', InYear * inDay * age, ' часов');
+
+print("Ozodbek:", name)
