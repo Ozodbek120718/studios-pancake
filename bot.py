@@ -1,47 +1,42 @@
-
-print("priv".encode()); #добавляет b;
-print("priv".endswith('fg'));
-print("priv".count('df'));
-# print("priv".center());
-print("priv".casefold('cd'));
-print("priv".capitalize('cd'));
-print("priv".isascii('cd'));
-print("priv".isalpha('cd'));
-print("priv".isalnum('dc'));
-print("priv".index('xs'));
-print("priv".format_map('cd'));
-print("priv".format('vf'));
-print("priv".find('xs'));
-print("priv".expandtabs('fd'));
-print("priv".istitle('sa'));
-print("priv".isspace('cd'));
-print("priv".isprintable('cs'));
-print("priv".isprintable('sa'));
-print("priv".isnumeric('da'));
-print("priv".islower('xs'));
-print("priv".isidentifier('sa'));
-print("priv".isdigit('ed'));
-print("priv".isdecimal('rf'));
-print("pp".rindex('er'));
-print("pp".rfind('fe'));
-print("pp".replace('rf'));
-print("pp".partition('fk'));
-print("pp".lstrip());
-print("pp".maketrans());
-print("pp".lower());
-print("pp".zfill());
-print("pp".upper());
-print("pp".translate());
-print("pp".title());
-print("pp".swapcase());
-print("pp".strip());
-print("pp".startswith());
-print("pp".splitlines());
-print("pp".split());
-print("pp".rstrip());
-print("pp".rpartition());
-print("pp".rjust());
-
-
-
+"hello world".capitalize()
+ # Output: "Hello world"
+"HELLO WORLD".casefold()
+# Output: "hello world"
+"hello".center(10, "*")
+# Output: "***hello***"
+"hello world".count("l")
+# Output: 3
+"hello world".encode("utf-8")
+# Output: b'hello world'
+"hello world".endswith("world")
+# Output: True
+"hello\tworld".expandtabs(4)
+# Output: "hello    world"
+"hello world".find("l")
+# Output: 2
+"Hello, {name}!".format(name="John Doe")
+# Output: "Hello, John Doe!"
+format_map = {"name": "John Doe"}
+"Hello, {name}!".format_map(format_map)
+# Output: "Hello, John Doe!"
+"hello world".index("l")
+# Output: 2
+"hello123".isalnum()
+# Output: True
+"hello".isalpha()
+# Output: True
+"hello".isascii()
+# Output: True
+"123".isdecimal()
+# Output: True
+"123".isdigit()
+# Output: True
+"my_variable".isidentifier()
+# Output: True
+"hello".islower()
+# Output: True
+"123".isnumeric()
+# Output: True
+"hello world".isprintable()
+# Output: True
 
