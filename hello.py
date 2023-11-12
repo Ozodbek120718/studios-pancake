@@ -1,22 +1,25 @@
-print('hello world');
-# privet vsem tem kto chitayet nash kod
-# if False :
-#     print('hi');
 
-print('no conditions block');
+def sum(a, b):
+    return a + b;
 
-x = 24; y = 'Ozodbek';
+print(sum(12, 3));
 
-"""
-    this is comment in triple quotes 
-    fgfd
-"""
-print(x, y, """dasdgdf""")
-z = '34';
-print(int(z) + 43);
+def subscract(a, b):
+    return a + b;
 
-print(type(int(z)));
+print(subscract(12, 3));
 
-age  = 11
+def multiply(a, b):
+    return a * b;
 
-print(age, type(age));
+print(multiply(12, 3));
+
+def devision(a, b):
+    return a / b;
+
+print(devision(12, 3));
+
+def calc(a, b):
+    return a ** b;
+
+print(calc(12, 3));
