@@ -1,19 +1,19 @@
 def minus(a, b):
     return a - b;
 
-print(minus)
+print(minus(50, 2))
 
 def umnojeniye(a, b):
     return a*b;
 
-print(umnojeniye)
+print(umnojeniye(50, 2))
 
 def deleniye(a, b):
     return a//b;
 
-print(deleniye)
+print(deleniye(50, 2))
 
 def plus(a, b):
     return a + b;
 
-print(plus)
+print(plus(50, 2))
