@@ -1,22 +1,19 @@
-print('hello world');
-# privet vsem tem kto chitayet nash kod
-# if False :
-#     print('hi');
+def minus(a, b):
+    return a - b;
 
-print('no conditions block');
+print(minus)
 
-x = 24; y = 'Ozodbek';
+def umnojeniye(a, b):
+    return a*b;
 
-"""
-    this is comment in triple quotes 
-    fgfd
-"""
-print(x, y, """dasdgdf""")
-z = '34';
-print(int(z) + 43);
+print(umnojeniye)
 
-print(type(int(z)));
+def deleniye(a, b):
+    return a//b;
 
-age  = 11
+print(deleniye)
 
-print(age, type(age));
+def plus(a, b):
+    return a + b;
+
+print(plus)
