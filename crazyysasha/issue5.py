@@ -24,7 +24,7 @@ print(13%5)
 print(2**4);
 
 def sum(a, b):
-    return a + b;
+    return int(a) + int(b);
 
-print(sum(12, 3));
+print(sum('12', '3'));
 
