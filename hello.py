@@ -1,25 +1,47 @@
+# Создание списка
+my_list = []
 
-def sum(a, b):
-    return a + b;
+# Добавление элементов в список
+my_list.append(1)
+my_list.insert(0, 0)
+my_list.extend([2, 3, 4, 5])
 
-print(sum(12, 3));
+# Удаление элементов из списка
+my_list.pop(0)
+my_list.pop()
+my_list.clear()
 
-def subscract(a, b):
-    return a + b;
+# Изменение элементов списка
+my_list[0] = "Goodbye"
+my_list = [10, 11, 12, 13, 14]
 
-print(subscract(12, 3));
+# Доступ к элементам списка
+print(my_list[0])
+print(my_list[-1])
+print(my_list[1:3])
 
-def multiply(a, b):
-    return a * b;
+# Цикл for
+for item in my_list:
+    print(item)
+for item in my_list[1:3]:
+    print(item)
 
-print(multiply(12, 3));
+# Сортировка списка
+my_list.sort()
+my_list.sort(reverse=True)
 
-def devision(a, b):
-    return a / b;
+# Копирование списка
+new_list = my_list.copy()
+new_list = my_list[:]
 
-print(devision(12, 3));
+# Объединение списков
+new_list = my_list + [15, 16, 17]
+new_list = my_list[:] + [15, 16, 17]
 
-def calc(a, b):
-    return a ** b;
-
-print(calc(12, 3));
+# Методы списков
+print(my_list.empty())
+print(len(my_list))
+print(my_list.index("Goodbye"))
+print(my_list.count("Goodbye"))
+my_list.remove("Goodbye")
+print(my_list.unique())
